@@ -1,0 +1,33 @@
+Step 1Hollys-MacBook-Pro:lab-bash hollydalton$ echo Hello
+Step 2Hollys-MacBook-Pro:lab-bash hollydalton$ mkdir new_dir
+Step 3Hollys-MacBook-Pro:lab-bash hollydalton$ rmdir new_dir
+Step 4Hollys-MacBook-Pro:lab-bash hollydalton$ cp lorem/sed.txt lorem-copy/sed.txt
+Step 5Hollys-MacBook-Pro:lab-bash hollydalton$ cp lorem/at.txt lorem-copy ; cp lorem/lorem.txt lorem-copy
+Step 6Hollys-MacBook-Pro:lab-bash hollydalton$ lorem cat sed.txt
+Step 7  Hollys-MacBook-Pro:lab-bash hollydalton$ cat lorem/at.txt; cat lorem/lorem.txt
+Step 8Hollys-MacBook-Pro:lab-bash hollydalton$ head -3 lorem-copy/sed.txt
+Step 9Hollys-MacBook-Pro:lab-bash hollydalton$ tail -3 lorem-copy/sed.txt
+Step 10   Hollys-MacBook-Pro:lab-bash hollydalton$ echo Homo homini lupus>> lorem-copy/sed.txt
+Step 11 Hollys-MacBook-Pro:lab-bash hollydalton$ tail -3 lorem-copy/sed.txt
+Step 12 Hollys-MacBook-Pro:lab-bash hollydalton$ sed -i -r 's/et/ET/' lorem/at.txt
+Hollys-MacBook-Pro:lab-bash hollydalton$ cat lorem/at.txt
+Step 13 Hollys-MacBook-Pro:lorem-copy hollydalton$ id -F
+
+Step 14 Hollys-MacBook-Pro:lorem-copy hollydalton$ pwd
+Step 15 Hollys-MacBook-Pro:lab-bash hollydalton$ ls lorem/*.txt
+Step 16  Hollys-MacBook-Pro:lab-bash hollydalton$ ls
+Homoinputslorem-copyreadme.md
+exercicesloremoutputs
+(base) Hollys-MacBook-Pro:lab-bash hollydalton$ cd lorem
+(base) Hollys-MacBook-Pro:lorem hollydalton$ cat sed.txt | wc -l
+       9
+
+Step 17 Hollys-MacBook-Pro:lorem hollydalton$ cd ..
+(base) Hollys-MacBook-Pro:lab-bash hollydalton$ wc */lorem.*
+       3      69     448 lorem-copy/lorem.txt
+       3      69     448 lorem/lorem.txt
+       6     138     896 total
+(base) Hollys-MacBook-Pro:lab-bash hollydalton$ wc */lorem.* | wc -l
+       3
+
+
